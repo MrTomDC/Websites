@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="Portfoliosite with bootstrap, HTML and CSS">
+    <meta name="author" content="Tom De Cock">
+    <title>Contact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/a5105aa9cd.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="Images/favicon.ico" type="image/gif" sizes="16x16" />
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg mb-4" name="navigation bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="Images/mijnlogo_pic.png" class="img-fluid mx-4" alt="mijn logo"></a>
+
+        <button
+          class="navbar-toggler mx-4"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse flex-grow-0 justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-4 me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="cv.html">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="overmij.html">Over mij</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+            
+
+            
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="container" name="form">
+      <form action="https://tm-statweb.be/sendmail.php" method="post" id="form">
+        <section class="container" name="contact">
+          <div class="row">
+            <div class="col-md mb-3">
+              <label for="exampleFormControlInput1" class="form-label">First Name:</label>
+              <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" name="First Name"  required>
+            </div>
+            <div class="col-md mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Last Name:</label>
+              <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" name="Last Name" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Phone Number:</label>
+              <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number" name="Phone Number">
+            </div>
+            <div class="col-md mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Company:</label>
+              <input type="text" class="form-control" placeholder="Company" aria-label="Company" name="Company">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="Email address" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required name="Message"></textarea>
+              </div>
+            </div>
+      
+          </div>
+          <input type="hidden" name="studentemail" value="r1006669@student.thomasmore.be">
+          <div class="col-12 mb-3">
+            <button class="btn btn-bg" type="submit">Send!</button>
+          </div>
+        </section>  
+      </form>
+    </section>
+    
+    
+    
+    <footer class="container-fluid" name="index-footer">
+      <div class="row">
+        <div class="col-md mb-4 mt-4">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-body-secondary">© Tom De Cock - 2023</span>
+          </div>
+        </div>
+        <div class="col-md mb-4 mt-4">
+          <ul class="nav col-md-4 justify-content-begin list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/tom.p.decock/"><i class="bi bi-facebook"><use xlink:href="https://www.facebook.com/tom.p.decock/"></use></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/mr_panther"><i class="bi bi-instagram"><use xlink:href="https://www.instagram.com/mr_panther"></use></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/tom-de-cock-641a88296/"><i class="bi bi-linkedin"><use xlink:href="https://www.linkedin.com/in/tom-de-cock-641a88296/"></use></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

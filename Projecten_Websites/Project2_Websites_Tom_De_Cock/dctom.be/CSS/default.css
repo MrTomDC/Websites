@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&family=Teko:wght@700&display=swap');
+
+body{
+        background-color: #E9E4CD;
+        color: #124734;
+}
+
+h1{
+    font-family: 'Teko', sans-serif;
+    font-size: xx-large;
+    color: #124734;
+}
+h2{
+    font-size: large;
+    color: #124734;
+}
+h3{
+    font-size: medium;
+    color: #124734;
+}
+
+
+.navbar {
+    background-color: #90C49D;
+}
+
+.navbar-toggler {
+    border: solid #124734;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    width: 20%;
+}
+
+.nav-item {
+    font-family: 'TEKO' , sans-serif;
+    color: #124734;
+    font-size: x-large;
+}
+.nav-item:hover {
+    text-decoration: underline;
+}
+.container-fluid {
+    overflow: hidden;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.p-5 {
+    background-color: #90C49D;
+}
+
+
+
+.btn-index{
+    
+    background-color: #EC872B;
+    border-radius: 10px;
+    border-color: #124734;
+}
+.btn-index a {
+    color: #124734;
+    text-decoration: none;
+}
+
+.btn-mw{
+    background-color: #EC872B;
+    border-radius: 10px;
+    border-color: #124734;
+}
+.btn-mw a{
+    color: #124734;
+    text-decoration: none;
+}
+
+
+.card-bg {
+    background-color: #45ACA8;
+}
+
+.card{
+    border-radius: 5px;
+}
+.card-body{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+footer {
+    background-color: #90C49D;
+}
+
+.headshot {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.cv-headpic {
+    width: 100%;
+    border-radius: 5%;
+    
+}
+
+.opleiding-img {
+    width: 20%;
+}
+
+.list-group-item{
+    background-color: #E9E4CD;
+    color: #124734;
+    border: solid #124734;
+}
+
+.accordion-button {
+    background-color: #45ACA8;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    background-color: #45ACA8;
+}
+
+.border-pic{
+    border-radius: 5%;
+    
+}
+
+.border-col {
+    border: solid #124734;
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: #45ACA8;
+}
+
+.carousel-item img{
+    border-radius: 10px;
+}
+
+.btn-bg{
+    background-color: #EC872B;
+    border-color: #124734;
+}
+
+.btn:hover {
+    background-color: #EC872B;
+    border-color: #124734;
+
+}
